@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roti Lezat - Bakery & Cafe</title>
+
+  <!-- Menyertakan Bootstrap CSS melalui CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJw1ZR7bp9uN2pD5JZ2kPehfPxXrwv9lrg5h3E6D7QF3c8lj6p5e9MwAGF9a" crossorigin="anonymous">
+
+  <!-- Menambahkan ikon FontAwesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+  <style>
+    /* Hero section */
+    .hero-section {
+      background: url('tokorotii.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 4rem;
+    }
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Roti Lezat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div>
+      <h1>Selamat Datang di Roti Lezat</h1>
+      <p>Rasakan kelezatan roti yang baru dipanggang setiap hari!</p>
+      <a href="#menu" class="btn btn-light btn-lg">Lihat Menu Roti</a>
+    </div>
+  </div>
+
+  <!-- Menu Roti -->
+  <div id="menu" class="container my-5">
+    <h2 class="text-center mb-4">Menu Roti Kami</h2>
+    <div class="row">
+      <!-- Roti 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="roti tawar coklat.jpg" class="card-img-top" alt="Roti Tawar">
+          <div class="card-body">
+            <h5 class="card-title">Roti Tawar</h5>
+            <p class="card-text">Roti lembut dengan rasa yang ringan, cocok untuk sarapan atau snack ringan.</p>
+            <h5>Rp25.000</h5>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Roti 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="roti cinnanom 2.jpg" class="card-img-top" alt="Roti Cinnamon">
+          <div class="card-body">
+            <h5 class="card-title">Roti Cinnamon</h5>
+            <p class="card-text">Roti dengan taburan kayu manis yang harum dan manis, sempurna untuk cemilan sore.</p>
+            <h5>Rp35.000</h5>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Roti 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="roti keju.jpg" class="card-img-top" alt="Roti Keju">
+          <div class="card-body">
+            <h5 class="card-title">Roti Keju 2</h5>
+            <p class="card-text">Roti dengan lelehan keju yang creamy di dalamnya, menggoda lidah dengan setiap gigitan.</p>
+            <h5>Rp30.000</h5>
+            <a href="#" class="btn btn-primary">Pesan Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Roti Lezat. fress baru buat</p>
+    <p>Ikuti Kami di:
+      <a href="#" class="text-white mx-2"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer>
+
+  <!-- Menyertakan JavaScript untuk Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gyb3jMyJkG4nCrt4X0c5xLwzzY2v7koyfPq8xVuG4xwZfNf6f5F" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqRzLyDEnZt1x9r5O5hXoQ8ZZjwKxH2uN3gWxNiEzDA5jR" crossorigin="anonymous"></script>
+</body>
+</html>
